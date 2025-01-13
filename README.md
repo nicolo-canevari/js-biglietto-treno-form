@@ -17,3 +17,9 @@ MILESTONE 3:
 Ora che la logica è funzionante in pagina, possiamo andare a dedicarci allo stile, raffinando la parte di HTML e CSS in modo da renderla esteticamente gradevole.
 Nota: Se non vi sentite particolarmente creativi, quella allegata potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
 
+LOGICA:
+-L'utente inserisce il numero di chilometri e l'età del passeggero.
+-Quando clicca il bottone "Calcola", il programma esegue la funzione calcolaPrezzo().
+Il programma calcola il prezzo iniziale moltiplicando i chilometri per il costo per chilometro (€0.21).
+Se l'età del passeggero è inferiore a 18 anni, applica uno sconto del 20%. Se l'età è superiore a 65 anni, applica uno sconto del 40%.
+Il prezzo finale viene quindi visualizzato nella console del browser con due decimali.
