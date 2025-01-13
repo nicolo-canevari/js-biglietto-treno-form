@@ -2,13 +2,17 @@
 function calcolaPrezzo() {
 
     // Recupero i valori dai campi input
+    const nome = document.getElementById('nome').value;
+    const cognome = document.getElementById('cognome').value;
     const km = parseFloat(document.getElementById('km').value);
     const age = parseInt(document.getElementById('age').value);
 
     // Verifica che i valori siano validi
-    if (isNaN(km) || isNaN(age) || km <= 0 || age <= 0) {
+    if (isNaN(km) || isNaN(age) || km <= 0 || age <= 0 || nome === '' || cognome === '') {
+
         alert("Per favore, inserisci dei valori validi.");
         return;
+        
     }
 
     // Prezzo di base per chilometro
