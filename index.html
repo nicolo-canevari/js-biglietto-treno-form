@@ -13,14 +13,21 @@
 
     <h1>Calcola il Prezzo del Biglietto</h1>
 
-    <!--  uso label per aggiungere una didascalia o un’etichetta esplicativa a elementi come campi di input, pulsanti o caselle di spunta -->
-    <label for="km">Numero di chilometri da percorrere:</label>
-    <input type="number" id="km" placeholder="Inserisci chilometri">
+    <form id="form">
 
-    <label for="age">Età del passeggero:</label>
-    <input type="number" id="age" placeholder="Inserisci età">
+        <!--  uso label per aggiungere una didascalia o un’etichetta esplicativa a elementi come campi di input, pulsanti o caselle di spunta -->
+        <label for="km">Numero di chilometri da percorrere:</label>
+        <input type="number" id="km" placeholder="Inserisci chilometri">
 
-    <button onclick="calcolaPrezzo()">Calcola</button>
+        <label for="age">Età del passeggero:</label>
+        <input type="number" id="age" placeholder="Inserisci età">
+
+        <button onclick="calcolaPrezzo()">Calcola</button>
+
+    </form>
+
+    <!-- output -->
+    <div class="output" id="output"></div>
 
     <!-- JS -->
     <script src="./javascript/script.js"></script>
