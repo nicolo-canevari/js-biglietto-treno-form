@@ -13,7 +13,7 @@ body {
     margin: 20px;
 }
 
-/* label - input - botton */
+/* Regole => label - input */
 label {
 
     margin-right: 10px;
@@ -27,10 +27,21 @@ input {
 
 }
 
-button {
+/* Regole => bottoni */
+#calcola {
 
     padding: 10px 15px;
     background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+#annulla {
+
+    padding: 10px 15px;
+    background-color: red;
     color: white;
     border: none;
     cursor: pointer;
@@ -44,9 +55,9 @@ button:hover {
 }
 
 /* OUTPUT */
-.output {
+/* .output {
 
     margin-top: 20px;
     font-size: 1.2em;
-    
-}
+
+} */
