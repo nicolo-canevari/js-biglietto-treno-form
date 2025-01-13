@@ -5,3 +5,43 @@
     box-sizing: border-box;
 
 }
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+label {
+
+    margin-right: 10px;
+
+}
+
+input {
+
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+button {
+
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: #45a049;
+
+}
+
+.output {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
