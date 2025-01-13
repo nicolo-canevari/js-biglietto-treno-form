@@ -9,9 +9,50 @@
 /* REGOLE MACRO */
 body {
 
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
 }
+
+/* main container */
+.container {
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+/* Contenitore per il form */
+.form-container {
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+    width: 100%;
+    max-width: 600px; 
+
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
 
 /* Regole => label - input */
 label {
@@ -28,6 +69,12 @@ input {
 }
 
 /* Regole => bottoni */
+button {
+
+    margin: 10px;
+
+}
+
 #calcola {
 
     padding: 10px 15px;
@@ -48,11 +95,11 @@ input {
 
 }
 
-button:hover {
+/* button:hover {
 
     background-color: #45a049;
 
-}
+} */
 
 /* OUTPUT */
 /* .output {
