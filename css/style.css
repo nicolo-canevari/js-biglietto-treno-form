@@ -43,7 +43,6 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
     width: 100%;
     max-width: 600px;
 
@@ -70,6 +69,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
+    min-height: 350px;
 
 }
 
@@ -160,7 +160,7 @@ h2 {
 /* Biglietto vero e proprio */
 .ticket {
 
-    background-color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 15px;
     border-radius: 10px;
     width: 100%;
@@ -179,9 +179,10 @@ h2 {
 
 #ticketInfo {
 
-    color: #888;
+    color: black;
     text-align: center;
     font-style: italic;
+    height: 200px;
 
 }
 
