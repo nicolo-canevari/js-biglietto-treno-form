@@ -9,6 +9,8 @@
 /* REGOLE MACRO */
 body {
 
+    background-image: url(../img/wallhaven-l315vy.png);
+    background-size: cover;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -23,7 +25,7 @@ body {
 .container {
 
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -35,17 +37,19 @@ body {
 /* Contenitore per il form */
 .form-container {
 
-    background-image: url(../img/modello-di-biglietto-del-treno-copia.JPG) ;
+    background-image: url(../img/modello-di-biglietto-del-treno-copia.JPG);
+    background-size: cover;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     width: 100%;
-    max-width: 600px; 
+    max-width: 600px;
 
 }
 
+/* Contenitore bottoni */
 .button-container {
 
     display: flex;
@@ -55,6 +59,24 @@ body {
 
 }
 
+
+/* Contenitore per il biglietto */
+.ticket-container {
+
+    background-image: url(../img/modello-di-biglietto-del-treno-design-piatto_copia.JPG);
+    background-size: contain;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+}
+
+
+
+
+/* REGOLE ELEMENTI */
 
 /* Titolo del form */
 h1 {
@@ -93,6 +115,14 @@ button {
 
     margin: 0 10px;
     border-radius: 99999px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+button:hover {
+
+    opacity: 0.9;
 
 }
 
@@ -117,11 +147,52 @@ button {
 
 }
 
-/* button:hover {
+/* Titolo del biglietto */
+h2 {
 
-    background-color: #45a049;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
 
-} */
+}
+
+/* Biglietto vero e proprio */
+.ticket {
+
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+
+}
+
+.ticket p {
+
+    margin: 10px 0;
+    font-size: 18px;
+
+}
+
+#ticketInfo {
+
+    color: #888;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.ticket p strong {
+
+    color: #000;
+
+}
+
+
+
 
 /* OUTPUT */
 /* .output {
